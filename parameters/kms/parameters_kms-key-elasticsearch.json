@@ -1,0 +1,18 @@
+[
+    {
+        "ParameterKey": "ParentAlertStack",
+        "ParameterValue": ""
+    },
+    {
+        "ParameterKey": "Service",
+        "ParameterValue": "es"
+    },
+    {
+        "ParameterKey": "KeySpec",
+        "ParameterValue": "SYMMETRIC_DEFAULT"
+    },
+    {
+        "ParameterKey": "KeyUsage",
+        "ParameterValue": "ENCRYPT_DECRYPT"
+    }
+]

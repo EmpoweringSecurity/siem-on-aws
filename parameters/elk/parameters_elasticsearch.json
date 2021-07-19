@@ -1,0 +1,70 @@
+[
+    {
+        "ParameterKey": "ParentVPCStack",
+        "ParameterValue": "VPC"
+    },
+    {
+        "ParameterKey": "ParentClientStack",
+        "ParameterValue": ""
+    },
+    {
+        "ParameterKey": "ParentKmsKeyStack",
+        "ParameterValue": "elasticsearch-kms-key"
+    },
+    {
+        "ParameterKey": "ParentZoneStack",
+        "ParameterValue": ""
+    },
+    {
+        "ParameterKey": "ParentSSHBastionStack",
+        "ParameterValue": ""
+    },
+    {
+        "ParameterKey": "ParentAlertStack",
+        "ParameterValue": ""
+    },
+    {
+        "ParameterKey": "DomainName",
+        "ParameterValue": "elasticsearch"
+    },
+    {
+        "ParameterKey": "RoleName",
+        "ParameterValue": "logstash-IAMRole"
+    },
+    {
+        "ParameterKey": "EBSEnabled",
+        "ParameterValue": "true"
+    },
+    {
+        "ParameterKey": "EBSVolumeSize",
+        "ParameterValue": "20"
+    },
+    {
+        "ParameterKey": "VPCEnabled",
+        "ParameterValue": "false"
+    },
+    {
+        "ParameterKey": "ElasticsearchVersion",
+        "ParameterValue": "7.10"
+    },
+    {
+        "ParameterKey": "ClusterInstanceCount",
+        "ParameterValue": "1"
+    },
+    {
+        "ParameterKey": "ClusterInstanceType",
+        "ParameterValue": "t3.small.elasticsearch"
+    },
+    {
+        "ParameterKey": "DedicatedMasterCount",
+        "ParameterValue": "0"
+    },
+    {
+        "ParameterKey": "DedicatedMasterType",
+        "ParameterValue": "t3.small.elasticsearch"
+    },
+    {
+        "ParameterKey": "SubDomainNameWithDot",
+        "ParameterValue": "elasticsearch."
+    }
+]

@@ -1,0 +1,10 @@
+[
+    {
+        "ParameterKey": "ParentS3Stack",
+        "ParameterValue": "S3-CloudTrail-Bucket"
+    },
+    {
+        "ParameterKey": "ParentKmsKeyStack",
+        "ParameterValue": ""
+    }
+]

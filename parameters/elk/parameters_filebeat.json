@@ -1,0 +1,126 @@
+[
+    {
+        "ParameterKey": "ParentVPCStack",
+        "ParameterValue": "VPC"
+    },
+    {
+        "ParameterKey": "ParentElasticsearchStack",
+        "ParameterValue": ""
+    },
+    {
+        "ParameterKey": "ParentSSHBastionStack",
+        "ParameterValue": ""
+    },
+    {
+        "ParameterKey": "ParentAlertStack",
+        "ParameterValue": ""
+    },
+    {
+        "ParameterKey": "ParentKmsKeyStack",
+        "ParameterValue": ""
+    },
+    {
+        "ParameterKey": "ParentZoneStack",
+        "ParameterValue": ""
+    },
+    {
+        "ParameterKey": "ParentClientStack1",
+        "ParameterValue": ""
+    },
+    {
+        "ParameterKey": "ParentClientStack2",
+        "ParameterValue": ""
+    },
+    {
+        "ParameterKey": "ParentClientStack3",
+        "ParameterValue": ""
+    },
+    {
+        "ParameterKey": "KeyName",
+        "ParameterValue": ""
+    },
+    {
+        "ParameterKey": "IAMUserSSHAccess",
+        "ParameterValue": "false"
+    },
+    {
+        "ParameterKey": "InstanceType",
+        "ParameterValue": "t3.micro"
+    },
+    {
+        "ParameterKey": "Name",
+        "ParameterValue": "filebeat"
+    },
+    {
+        "ParameterKey": "SubnetName",
+        "ParameterValue": "SubnetAPrivate"
+    },
+    {
+        "ParameterKey": "LogsRetentionInDays",
+        "ParameterValue": "14"
+    },
+    {
+        "ParameterKey": "SubDomainNameWithDot",
+        "ParameterValue": ""
+    },
+    {
+        "ParameterKey": "UserData",
+        "ParameterValue": ""
+    },
+    {
+        "ParameterKey": "IngressTcpPort1",
+        "ParameterValue": ""
+    },
+    {
+        "ParameterKey": "IngressTcpParentClientStack1",
+        "ParameterValue": ""
+    },
+    {
+        "ParameterKey": "IngressTcpPort2",
+        "ParameterValue": ""
+    },
+    {
+        "ParameterKey": "IngressTcpParentClientStack2",
+        "ParameterValue": ""
+    },
+    {
+        "ParameterKey": "IngressTcpPort3",
+        "ParameterValue": ""
+    },
+    {
+        "ParameterKey": "ManagedPolicyArns",
+        "ParameterValue": ""
+    },
+    {
+        "ParameterKey": "PermissionsBoundary",
+        "ParameterValue": ""
+    },
+    {
+        "ParameterKey": "RootVolumeSize",
+        "ParameterValue": "8"
+    },
+    {
+        "ParameterKey": "MaintenanceWindowSchedule",
+        "ParameterValue": "cron(0 5 ? * SUN *)"
+    },
+    {
+        "ParameterKey": "MaintenanceWindowScheduleTimezone",
+        "ParameterValue": "UTC"
+    },
+    {
+        "ParameterKey": "BackupRetentionPeriod",
+        "ParameterValue": "0"
+    },
+    {
+        "ParameterKey": "BackupScheduleExpression",
+        "ParameterValue": "cron(0 4 ? * * *)"
+    },
+    {
+        "ParameterKey": "RestoreImageId",
+        "ParameterValue": ""
+    },
+    {
+        "ParameterKey": "AmazonLinux2Version",
+        "ParameterValue": "20210126.0"
+    }
+]

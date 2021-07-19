@@ -1,0 +1,54 @@
+[
+    {
+        "ParameterKey": "ParentKmsKeyStack",
+        "ParameterValue": ""
+    },
+    {
+        "ParameterKey": "ParentS3VirusScanStack",
+        "ParameterValue": ""
+    },
+    {
+        "ParameterKey": "ParentVpcEndpointStack",
+        "ParameterValue": ""
+    },
+    {
+        "ParameterKey": "BucketName",
+        "ParameterValue": "central-logging-facility"
+    },
+    {
+        "ParameterKey": "Access",
+        "ParameterValue": "CloudTrailWrite"
+    },
+    {
+        "ParameterKey": "Versioning",
+        "ParameterValue": "true"
+    },
+    {
+        "ParameterKey": "NoncurrentVersionExpirationInDays",
+        "ParameterValue": "0"
+    },
+    {
+        "ParameterKey": "ExpirationInDays",
+        "ParameterValue": "0"
+    },
+    {
+        "ParameterKey": "ExpirationPrefix",
+        "ParameterValue": ""
+    },
+    {
+        "ParameterKey": "S3EventNotification",
+        "ParameterValue": "true"
+    },
+    {
+        "ParameterKey": "LambdaFunctionArn",
+        "ParameterValue": ""
+    },
+    {
+        "ParameterKey": "LambdaFunctionEvent",
+        "ParameterValue": "s3:ObjectCreated:*"
+    },
+    {
+        "ParameterKey": "LambdaFunctionFilterPrefix",
+        "ParameterValue": ""
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "ParameterKey": "ParentVPCStack",
+        "ParameterValue": "VPC"
+    },
+    {
+        "ParameterKey": "ParentAlertStack",
+        "ParameterValue": ""
+    },
+    {
+        "ParameterKey": "SubnetZone",
+        "ParameterValue": "A"
+    }
+]
